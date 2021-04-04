@@ -62,7 +62,7 @@ src/test/data/login.json
 
 Здесь показал вариант использования данных из .json файла.
 
-- логин с неверными данными с последующей проверкой сообщений об ошибках.
+- логин с неверными данными и последующей проверкой сообщений об ошибках.
 
 ```sh 
 Error messages are displayed if credentials are invalid
@@ -74,7 +74,7 @@ Error messages are displayed if credentials are invalid
 src/test/data/LoginProvider.ts
 ```
 
-так же показал вариант использования интерфейсов в typescript - благодаря тому что у data provider'а есть определённая
+так же показал вариант использования интерфейсов в typescript. Благодаря тому что у data provider'а есть определённая
 интерфейсом структура его проще использвоать в коде.
 
 Благодаря data provider мы можем запускать один и тот же тест с
