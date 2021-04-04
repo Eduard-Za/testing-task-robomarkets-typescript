@@ -28,5 +28,5 @@ typings/
 package-lock.json
 
 #idea
-.idea
+*.idea
 
