@@ -24,9 +24,5 @@ typings/
 # Optional eslint cache
 .eslintcache
 
-# Package-lock
-.package-lock.json
-
 #idea
-*.idea
-
+.idea/
