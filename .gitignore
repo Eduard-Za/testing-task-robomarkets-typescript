@@ -9,9 +9,6 @@ lerna-debug.log*
 dist
 test-report
 
-# Diagnostic reports (https://nodejs.org/api/report.html)
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
 # Dependency directories
 node_modules/
 
@@ -26,3 +23,10 @@ typings/
 
 # Optional eslint cache
 .eslintcache
+
+# Package-lock
+package-lock.json
+
+#idea
+.idea
+
